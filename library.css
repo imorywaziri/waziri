@@ -1,0 +1,22 @@
+.books{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px;
+}
+
+.rows{
+    width: 270px;
+    height: 300px;
+    border-bottom: 2px solid #000;
+}
+
+.rows p{
+    padding: 4px;
+    margin-top: 2px;
+}
+
+.rows img{
+    width: 278px;
+    object-fit: cover;
+}

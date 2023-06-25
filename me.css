@@ -1,0 +1,36 @@
+.about-main{
+    margin: 60px 30px;
+
+}
+
+.about{
+    display:flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.image-about-me{
+    margin-right: 50px;
+}
+
+.image-about-me img{
+    width: 480px;
+    border-radius: 0 18px 0 18px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    height:750px;
+}
+
+.about-me-content h1{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #39603d;
+    margin-bottom: 14px;
+}
+
+.about-me-content p{
+    font-size: 18px;
+    line-height: 29px;
+    padding: 20px;
+}

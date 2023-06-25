@@ -1,0 +1,114 @@
+body{
+    background-image: linear-gradient(to bottom, #ccc, #39603d);
+}
+
+.form-main{
+    position: relative;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    min-height: 100vh;
+}
+
+#myForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-main .registration, .contact, .socia-media{
+    align-items: center;
+    padding: 25px;
+    margin: 0 25px;
+}
+
+.form-main .registration h1{
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 0.25rem;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+
+.form-main .registration label{
+    font-size: 14px;
+    margin-right: 12px;
+
+}
+
+.form-main .registration input{
+    outline: none;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 4px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #ccc;
+}
+
+#file_upload{
+    background: none;
+}
+
+.form-main .contact h1{
+    text-transform: uppercase;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+
+.form-main .contact input{
+    outline: none;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 4px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #ccc;
+}
+
+.form-main .socia-media h1{
+    text-transform: uppercase;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.form-main .socia-media input{
+    outline: none;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 4px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #ccc;
+}
+
+input::placeholder{
+    font-size: 14px;
+}
+
+.registration #sign_up{
+    display: block;
+    background-color: #39603d;
+    padding: 8px;
+    font-size: 18px;
+    color: #ccc;
+    cursor: pointer;
+    line-height: 1.5rem;
+    letter-spacing: 0.05rem;
+    transition: 0.3s ease-in-out;
+}
+
+.registration #sign_up:hover{
+    color: #fff;
+    background-color: #2b4b2e;
+}

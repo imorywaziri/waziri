@@ -1,0 +1,110 @@
+/* #course-main{
+    
+} */
+
+.course-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    margin-top: 60px;
+}
+
+.my-course{
+    align-items: center;
+    position: relative;
+}
+
+.my-course h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.my-table{
+    align-items: center;
+    width: 560px;
+    padding: 16px;
+}
+
+.my-table thead tr th{
+    background-color: #39603d;
+    color: #fff;
+}
+
+.my-table tbody tr:nth-child(odd){
+    background-color: #ccc;
+    padding: 12px;
+}
+
+.my-table tbody tr td, thead tr th{
+    padding: 10px 16px ;
+}
+
+.table-width{
+    width: 1000px;
+    margin-bottom: 20px;
+}
+
+.form-course{
+    width: 500px;
+    margin: 0 20px;
+}
+
+.form-course h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.form-course-form label{
+    font-size: 14px;
+    margin-right: 12px;
+    display: block;
+}
+
+.form-course-form input{
+    outline: none;
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    padding: 4px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #ccc;
+}
+
+.form-course-form select{
+    background-color: #39603d;
+    padding: 1px 2px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+.form-course-form textarea{
+    width: 491px;
+    height: 65px;
+    margin-top: 10px;
+    outline: none;
+    background-color: #ccc;
+    overflow: hidden;
+    border: none;
+    resize: none;
+}
+
+.form-course-form .enroll{
+    display: block;
+    background-color: #39603d;
+    padding: 8px;
+    font-size: 18px;
+    color: #ccc;
+    cursor: pointer;
+    line-height: 1.5rem;
+    letter-spacing: 0.05rem;
+    transition: 0.3s ease-in-out;
+}
+
+.form-course-form .enroll:hover{
+    color: #fff;
+    background-color: #2b4b2e;
+}
